@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | DavonneB-Web-Development-Project</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact-form">
+            <h1>Contact Me</h1>
+            <form id="form" action="/submit-form" method="POST">
+                <label for="name">DavonneB:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">dboyce1@students.kennesaw.edu:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
